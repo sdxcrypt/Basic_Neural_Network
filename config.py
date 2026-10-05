@@ -3,14 +3,14 @@
 # ==========================================
 # 1. DOSYA YOLLARI (PATHS)
 # ==========================================
-TRAINING_DATA_PATH = "data/raw/train.csv"
-TEST_DATA_PATH = "data/raw/test.csv"
-SAMPLE_SUBMISSION_PATH = "data/raw/sample_submission.csv"
+TRAINING_DATA_PATH = "data/train.csv"
+TEST_DATA_PATH = "data/test.csv"
+SAMPLE_SUBMISSION_PATH = "data/sample_submission.csv"
 
-MODEL_SAVE_PATH = "data/output/model.keras" 
-SCALER_SAVE_PATH = "data/output/scaler.save"
-IMPUTER_SAVE_PATH = "data/output/imputer.save"  # Eksik veri doldurucu modeli kaydetmek için
-PREDICTION_SAVE_PATH = "data/output/prediction.csv"
+MODEL_SAVE_PATH = "output/model.keras" 
+SCALER_SAVE_PATH = "output/scaler.save"
+IMPUTER_SAVE_PATH = "output/imputer.save"  # Eksik veri doldurucu modeli kaydetmek için
+PREDICTION_SAVE_PATH = "output/prediction.csv"
 
 # ==========================================
 # 2. VERİ PARAMETRELERİ (DATA PARAMS)
